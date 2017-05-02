@@ -1,0 +1,9 @@
+/home/pavel/src/github.com/irnc/node-hacking/timer-error.js:1
+(function (exports, require, module, __filename, __dirname) { setTimeout(() => { throw new Error }, 1);
+                                                                                 ^
+
+Error
+    at Timeout.setTimeout [as _onTimeout] (/home/pavel/src/github.com/irnc/node-hacking/timer-error.js:1:88)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
